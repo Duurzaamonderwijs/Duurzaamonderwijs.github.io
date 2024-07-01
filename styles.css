@@ -7,7 +7,6 @@ body {
 .navbar {
     background-color: #7bc043; /* Lichtgroene achtergrond */
     overflow: hidden;
-    position: fixed;
 }
 
 .navbar a {
@@ -43,6 +42,7 @@ ul li {
   border-radius: 5px; /* Afgeronde hoeken */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Schaduw voor 3D-effect */
   transition: transform 0.3s, box-shadow 0.3s; /* Animatie voor transform en schaduw */
+  list-style-type: square;
 }
 
 ul li:hover {
