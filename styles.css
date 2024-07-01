@@ -28,3 +28,23 @@ body {
     background-color: #4CAF50; /* Donker groen voor actieve link */
     color: white;
 }
+
+ul {
+  list-style-type: none; /* Verwijder bullet points */
+  padding: 0;
+  margin: 0; /* Verwijder standaardmarges */
+}
+
+ul li {
+  background: #fff; /* Witte achtergrond */
+  padding: 15px 20px; /* Opvulling voor elk item */
+  margin: 10px 0; /* Ruimte tussen items */
+  border-radius: 5px; /* Afgeronde hoeken */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Schaduw voor 3D-effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Animatie voor transform en schaduw */
+}
+
+ul li:hover {
+  transform: translateY(-10px); /* Verplaatsing omhoog bij hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1); /* Diepere schaduw bij hover */
+}
